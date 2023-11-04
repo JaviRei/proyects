@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+
+        <section class="crud">
+            <h1 class="crud_title">CRUD Contraseñas</h1>
+            <form action="" id="formRegister" class="crud_form">
+                <input type="text" class="form_input" id="nameInput" placeholder="Nombre">
+                <input type="email" class="form_input" id="emailInput" placeholder="Email">
+                <button class="button button--primary" type="submit" id="submitButton">Enviar</button>
+            </form>
+            <table class="crud_table">
+                <thead>
+                    <tr>
+                        <th class="table_header">Name</th>
+                        <th class="table_header">Email</th>
+                        <th class="table_header">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="table_body" class="tableBody">
+
+                </tbody>
+            </table>
+        </section>
+    
+    </main>
+    <script src="crud.js"></script>
+</body>
+</html>
